@@ -1,0 +1,82 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Článek
+  category: Kategorie
+  tag: Tag
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Domů
+  categories: Kategorie
+  tags: Tagy
+  archives: Archiv
+  about: O mně
+
+# the text displayed in the search bar & search results
+search:
+  hint: Hledat
+  cancel: Zrušit
+  no_results: Upss! Nepodařilo se mi nic najít.
+
+panel:
+  lastmod: Naposled upravené
+  trending_tags: Oblíbené
+  toc: Obsah
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Tento článek podléhá licensi :LICENSE_NAME.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Práva vyhrazena
+  verbose: >-
+    Pokud není uvedeno jinak, veškerý obsah této stránky spadá pod licenci Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+meta: Pohání :PLATFORM a :THEME.
+
+not_found:
+  statment: Upsss! Tahle adresa musela být přesunuta nebo smazána.
+
+notification:
+  update_found: Je k dispozici nová verze
+  update: Update
+
+# ----- Posts related labels -----
+
+post:
+  written_by: 
+  posted: Nahráno
+  updated: Upraveno
+  words: slova
+  pageview_measure: Přečteno
+  read_time:
+    unit: min
+    prompt: Čtení
+  relate_posts: K dalšímu čtení
+  share: Sdílet
+  button:
+    next: Novější
+    previous: Starší
+    copy_code:
+      succeed: Zkopírováno!
+    share_link:
+      title: Kopírovat odkaz
+      succeed: Odkaz úspěšně zkopírován!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Připnuto
+
+# categories page
+categories:
+  category_measure:
+    singular: Kategorie
+    plural: Kategorie
+  post_measure:
+    singular: Příspěvek
+    plural: Příspěvky
